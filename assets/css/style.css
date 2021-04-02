@@ -1,24 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
-/*----------------------------------------- Hero Image*/
+/*-------------------------------------------------- Colours */
 
-#heroimage {
-    background-image: url(../images/tree.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    min-height: 360px;
-    position: relative;
 
-}
 
-.title a {
-    font-family: "Montserrat" , sans-serif ;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+/*----------------------------------------------- Navigation */
+
+.navbar-brand {
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: transparent;
     color: #ff4f58;
 }
