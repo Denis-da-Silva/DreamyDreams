@@ -1,24 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Charm:wght@400;700&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
 
-/*-------------------------------------------------- Colours */
+/*--------------------------------------------Hero Section*/
 
+.hero-image-container {
+    height: 100vh;
+    background: url('/assets/images/hot-air-balloon.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: left;
 
-/*----------------------------------------------- Navigation */
+    position: relative;
 
-.navbar {
-    
 }
 
-#dreamydreams {
-    
+.hero-section {
+    font-family: "Charm" , sans-serif;
+    font-weight: 400;
+    color: #fcf6f5;
+    padding-left: 30px;
+    font-size: medium;
 }
 
-#nav-id{
-    
-   
+blockquote {
+    letter-spacing: 5px;
+    font-family: "Montserra" , sans-serif;
+    font-size: medium;
+    margin-top: 2.5rem;
 }
 
-#testimonials {
-    
+/*--------------------------------------------What We Do*/
+
+.whatwedo-container {
+    height: 100vh;
+    background-color: #fcf6f5;
+    font-family: "Titillium" , sans-serif;
+}
+
+.whatwedo-header {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    color: #235dbd;
+    text-align: justify;
+}
+
+.whatwedo-header p {
+    text-align: justify;
+    color: #686c6f;
+}
+
+.howitworks {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.howitworks h2 {
+    color: #235dbd;
+    text-align: center;
+}
+
+.howitworks p {
+    color: #686c6f;
+}
+
+.item-icon {
+    color: #235dbd;
+}
+
+/*--------------------------------------------Testimonials*/
+
+.testimonials-container {
+    height: 100vh;
+}
+
+/*--------------------------------------------Request a Dream*/
+
+.requestadream-container {
+    height: 100vh;
+    background: url('/assets/images/tree.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    position: relative;
 }
